@@ -9,6 +9,9 @@ packages = [{include = "sono_system"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+fastapi = "0.98.0"
+uvicorn = {extras = ["standard"], version = "0.22.0"}
+websockets = "11.0.3"
 
 
 [build-system]
